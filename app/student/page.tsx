@@ -1,3 +1,4 @@
+import { TableStudent } from "@/components/table-student";
 import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
@@ -30,6 +31,9 @@ export default function ListStudent(){
         </header>
         <div>
             <h1>Lista de Estudantes</h1>
+            <TableStudent/>
+           
+
         </div>
         </>
     )
