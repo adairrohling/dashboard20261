@@ -3,6 +3,7 @@ import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbS
 import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 
+// export const revalidate = 0; // Desabilita cache - sempre busca dados frescos
 
 export default function ListStudent(){
     return(
